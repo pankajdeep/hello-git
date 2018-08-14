@@ -1,0 +1,18 @@
+1. We have created a repository on github and we want to clone it in our system, so we use the clone command:-
+git clone <URL of repository copied from github>
+
+2. After doing some changes in a file, we want to put the file in a repository on github we use the following commands:-
+I) To add the file in the staged area use command-
+git add -A
+II) To save our file from staged area onto git's local database use command-
+git commit -m "<Message>"
+III) Now, to push the file onto GITHUB server use command-
+git push -u origin master
+IV) To check the status of our file use command-
+git status
+
+3. The commands that are used to tell git our username and password of github are-
+I)git config --global user.name "<Username>"
+II)git config --global user.email "<email>"
+
+The 3rd commands are to be run only one time.
